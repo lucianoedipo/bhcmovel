@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Bem Vindo ao BHC Móvel</string>
+	<string name="app_name">Balanço Hídrico</string>
+	<string name="DataBaseNome">BHCDataBase</string>
+	<string name="description">Programa de Cálculo de Balanço Hídrico
+		Climatológico</string>
+	<string name="nome">BHCMobi</string>
+	<string name="welcome">Olá, Este é seu primeiro acesso ao Aplicativo,
+		Lembramos que para iniciar a utilização do aplicativo ates deve ser
+		criado o Banco de Dados, vá em Administração->Criar DataBase</string>
+		
+
+
+<string name="EscCult">Escolha da Cultura</string>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/widget41"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+	<TextView android:id="@+id/TextView01" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="Atualizar Base Dados Móvel">
+	</TextView>
+	<TextView android:id="@+id/TxtPrimDiaMan"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:text="Primeiro Dia:">
+	</TextView>
+	<TextView android:id="@+id/TxtUltDiaMan" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="Último Dia:">
+	</TextView>
+	<TextView android:id="@+id/txtAtuManDia" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="Dia(dd/mm/aaaa):">
+	</TextView>
+	<EditText android:id="@+id/EdtAtuManDia" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="Clique para escolher a data"
+		android:textSize="18sp" android:gravity="center">
+	</EditText>
+	<TextView android:id="@+id/txtAtuManChuvaNet"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:text="Chuva da Estação:">
+	</TextView>
+	<TextView android:id="@+id/txtAtuManChuva"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:text="Chuva">
+	</TextView>
+
+	<EditText android:id="@+id/EdtAtuManChuva"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:textSize="18sp">
+	</EditText>
+	<Button android:id="@+id/bttAtuManOk" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="Ok Adicionar">
+	</Button>
+</LinearLayout>

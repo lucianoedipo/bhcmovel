@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:layout_gravity="center">
+
+
+	<TextView android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal" android:layout_width="wrap_content"
+		android:id="@+id/AtualizanetCab" android:text="Atualizando Pelo Servidor XMLDOM"
+		android:textStyle="bold" />
+
+
+
+	<AbsoluteLayout android:id="@+id/AbsoluteLayout01"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<EditText android:layout_height="wrap_content"
+			android:layout_width="150px" android:id="@+id/IniAtuNet"
+			android:layout_x="3px" android:scrollHorizontally="true" />
+		<EditText android:layout_height="wrap_content"
+			android:layout_width="150px" android:id="@+id/FimAtuNet"
+			android:layout_x="168px" android:scrollHorizontally="true"></EditText>
+
+	</AbsoluteLayout>
+	<Button android:id="@+id/BttAtuNet" android:layout_height="wrap_content"
+		android:layout_gravity="center" android:text="Ir"
+		android:layout_width="fill_parent"></Button>
+
+
+	<ScrollView android:id="@+id/ScrollView01"
+		android:layout_height="wrap_content" android:layout_width="fill_parent">
+
+
+		<TextView android:id="@+id/Dias" android:layout_width="fill_parent"
+			android:background="#333333" android:scrollbars="horizontal|vertical"
+			android:layout_height="wrap_content" android:padding="5px"></TextView>
+
+
+
+	</ScrollView>
+</LinearLayout>

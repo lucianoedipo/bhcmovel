@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:layout_gravity="center">
+	
+	
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textCabAdm" android:text="Administração" android:layout_gravity="center" android:textStyle="bold"></TextView>
+<Button android:layout_height="wrap_content" android:id="@+id/BttCadSolo" android:text="Cadastro de Solo" android:layout_width="fill_parent"></Button>
+<Button android:layout_height="wrap_content" android:id="@+id/BttCadCultura" android:layout_width="fill_parent" android:text="Cadastro de Cultura"></Button><Button android:layout_height="wrap_content" android:id="@+id/BttAdmCriarDB" android:text="Criar DataBase" android:layout_width="fill_parent"></Button>
+
+</LinearLayout>

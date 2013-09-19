@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:layout_gravity="center" android:scrollbars="horizontal|vertical">
+
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_gravity="center"
+		android:id="@+id/TextCabCadSolo" android:text="Cadastro de Solo"
+		android:textStyle="bold"></TextView>
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/TextCadSoloNome"
+		android:text="Nome:"></TextView>
+	<EditText android:layout_height="wrap_content" android:id="@+id/EditCadSoloNome"
+		android:layout_width="fill_parent"></EditText>
+	<LinearLayout android:id="@+id/LinearLayout01"
+		android:layout_height="wrap_content" android:orientation="vertical"
+		android:layout_width="106px">
+
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/TextCadSoloEsp"
+			android:text="Espessura(cm):"></TextView>
+		<EditText android:layout_height="wrap_content" android:id="@+id/EditCadSoloEsp"
+			android:numeric="integer" android:layout_width="fill_parent" android:maxLength="5"></EditText>
+
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/TextCadSoloCC"
+			android:text="CC:"></TextView>
+		<EditText android:layout_height="wrap_content" android:id="@+id/EditCadSoloCC"
+			android:numeric="decimal" android:layout_width="fill_parent"></EditText>
+
+
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/TextCadSoloPM"
+			android:text="PM:"></TextView>
+		<EditText android:layout_height="wrap_content" android:id="@+id/EditCadSoloPM"
+			android:numeric="decimal" android:layout_width="fill_parent"></EditText>
+
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/TextCadSoloDS"
+			android:text="DS:"></TextView>
+		<EditText android:layout_height="wrap_content" android:id="@+id/EditCadSoloDS"
+			android:numeric="decimal" android:layout_width="fill_parent"></EditText>
+
+	</LinearLayout>
+	<Button android:layout_height="wrap_content" android:id="@+id/BttCadSoloCad"
+		android:text="Cadastrar" android:layout_width="fill_parent"></Button>
+
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/TextSql" android:scrollbars="horizontal|vertical" android:textSize="10px"></TextView>
+</LinearLayout>

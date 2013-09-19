@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:layout_gravity="center"
+	android:scrollbars="horizontal|vertical">
+
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_gravity="center"
+		android:textStyle="bold" android:id="@+id/TextCabCadCultura"
+		android:text="Cadastro de Cultura"></TextView>
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="Nome:"
+		android:id="@+id/TextCadCulturaNome"></TextView>
+	<EditText android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:id="@+id/EditCadCulturaNome"></EditText>
+	<AbsoluteLayout android:id="@+id/AbsoluteLayoutDadosCult"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<LinearLayout android:id="@+id/LinearLayoutFases"
+			android:layout_height="wrap_content" android:orientation="vertical"
+			android:layout_width="100px">
+
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/TextCadFases"
+				android:text="Fase:"></TextView>
+			<Button android:layout_height="wrap_content" android:numeric="integer"
+				android:layout_width="fill_parent" android:maxLength="1"
+				android:id="@+id/EditCadCulturaFase1" android:gravity="center"
+				android:text="1"></Button>
+			<Button android:layout_height="wrap_content" android:numeric="integer"
+				android:layout_width="fill_parent" android:maxLength="1"
+				android:id="@+id/EditCadCulturaFase2" android:gravity="center"
+				android:text="2"></Button>
+			<Button android:layout_height="wrap_content" android:numeric="integer"
+				android:layout_width="fill_parent" android:maxLength="1"
+				android:id="@+id/EditCadCulturaFase3" android:gravity="center"
+				android:text="3"></Button>
+			<Button android:layout_height="wrap_content" android:numeric="integer"
+				android:layout_width="fill_parent" android:maxLength="1"
+				android:id="@+id/EditCadCulturaFase4" android:gravity="center"
+				android:text="4"></Button>
+			<Button android:layout_height="wrap_content" android:numeric="integer"
+				android:layout_width="fill_parent" android:maxLength="1"
+				android:id="@+id/EditCadCulturaFase5" android:gravity="center"
+				android:text="5"></Button>
+		</LinearLayout>
+
+		<LinearLayout android:id="@+id/LinearLayoutDuracao"
+			android:layout_height="wrap_content" android:orientation="vertical"
+			android:layout_width="100px" android:layout_x="110px">
+
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/TextCadCulturaDur"
+				android:text="Duração(Dias):"></TextView>
+			<EditText android:layout_height="wrap_content"
+				android:numeric="integer" android:layout_width="fill_parent"
+				android:maxLength="3" android:id="@+id/EditCadCulturaDur1"
+				android:gravity="center"></EditText>
+			<EditText android:layout_height="wrap_content"
+				android:numeric="integer" android:layout_width="fill_parent"
+				android:maxLength="3" android:id="@+id/EditCadCulturaDur2"
+				android:gravity="center"></EditText>
+			<EditText android:layout_height="wrap_content"
+				android:numeric="integer" android:layout_width="fill_parent"
+				android:maxLength="3" android:id="@+id/EditCadCulturaDur3"
+				android:gravity="center"></EditText>
+			<EditText android:layout_height="wrap_content"
+				android:numeric="integer" android:layout_width="fill_parent"
+				android:maxLength="3" android:id="@+id/EditCadCulturaDur4"
+				android:gravity="center"></EditText>
+			<EditText android:layout_height="wrap_content"
+				android:numeric="integer" android:layout_width="fill_parent"
+				android:maxLength="3" android:id="@+id/EditCadCulturaDur5"
+				android:gravity="center"></EditText>
+
+
+		</LinearLayout>
+
+		<LinearLayout android:id="@+id/LinearLayoutKC"
+			android:layout_height="wrap_content" android:orientation="vertical"
+			android:layout_width="100px" android:layout_x="220px">
+
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/TextCadCulturaKC"
+				android:text="KC:"></TextView>
+			<EditText android:layout_height="wrap_content"
+				android:layout_width="fill_parent" android:maxLength="5"
+				android:id="@+id/EditCadCulturaKC1" android:numeric="decimal"
+				android:gravity="center"></EditText>
+			<EditText android:layout_height="wrap_content"
+				android:layout_width="fill_parent" android:maxLength="5"
+				android:id="@+id/EditCadCulturaKC2" android:numeric="decimal"
+				android:gravity="center"></EditText>
+			<EditText android:layout_height="wrap_content"
+				android:layout_width="fill_parent" android:maxLength="5"
+				android:id="@+id/EditCadCulturaKC3" android:numeric="decimal"
+				android:gravity="center"></EditText>
+			<EditText android:layout_height="wrap_content"
+				android:layout_width="fill_parent" android:maxLength="5"
+				android:id="@+id/EditCadCulturaKC4" android:numeric="decimal"
+				android:gravity="center"></EditText>
+			<EditText android:layout_height="wrap_content"
+				android:layout_width="fill_parent" android:maxLength="5"
+				android:id="@+id/EditCadCulturaKC5" android:numeric="decimal"
+				android:gravity="center"></EditText>
+
+		</LinearLayout>
+
+
+	</AbsoluteLayout>
+	<Button android:layout_height="wrap_content" android:text="Cadastrar"
+		android:layout_width="fill_parent" android:id="@+id/BttCadCulturaCad"></Button>
+</LinearLayout>

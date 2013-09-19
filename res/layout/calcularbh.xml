@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:layout_gravity="center"
+	android:scrollbars="horizontal|vertical">
+
+
+	<TextView android:layout_height="wrap_content"
+		android:layout_gravity="center" android:textStyle="bold" android:id="@+id/textCabCalc"
+		android:text="Cálculo do BH" android:layout_width="wrap_content"
+		android:textSize="16px"></TextView>
+
+
+	<Button android:layout_height="wrap_content" android:id="@+id/BttCalcOk"
+		android:layout_width="fill_parent" android:text="SIMULAR BALANÇO HÍDRICO"></Button>
+	<AbsoluteLayout android:id="@+id/AbsoluteLayoutDados"
+		android:layout_width="fill_parent" android:layout_height="300px">
+		<LinearLayout android:id="@+id/LinearLayoutLabels"
+			android:layout_height="wrap_content" android:orientation="vertical"
+			android:layout_width="130px">
+
+			<TextView android:layout_height="wrap_content" android:id="@+id/TextCalcLabelDia"
+				android:text="DIA:" android:layout_width="fill_parent"
+				android:textSize="20px"></TextView>
+			<TextView android:layout_height="wrap_content" android:id="@+id/TextCalcLabelPE"
+				android:text="Chuva Efetiva:" android:layout_width="fill_parent"
+				android:textSize="20px" android:background="#333333"></TextView>
+			<TextView android:layout_height="wrap_content" android:id="@+id/TextCalcLabelET0"
+				android:text="ET0:" android:layout_width="fill_parent"
+				android:textSize="20px"></TextView>
+			<TextView android:layout_height="wrap_content" android:id="@+id/TextCalcLabelETR"
+				android:text="ETR:" android:layout_width="fill_parent"
+				android:textSize="20px" android:background="#333333"></TextView>
+			<TextView android:layout_height="wrap_content" android:id="@+id/TextCalcLabelAD"
+				android:text="Água Disp.:" android:layout_width="fill_parent"
+				android:textSize="20px"></TextView>
+			<TextView android:id="@+id/Textsep" android:layout_width="fill_parent"
+				android:layout_height="5px" android:background="#BBBBBB"></TextView>
+			<TextView android:layout_height="wrap_content" android:id="@+id/TextCalcLabelUmin"
+				android:text="Um. SOLO:" android:layout_width="fill_parent"
+				android:textSize="22px" android:background="#333333"></TextView>
+			<TextView android:layout_height="wrap_content" android:id="@+id/TextCalcLabelDH"
+				android:text="Def. Hídrica:" android:layout_width="fill_parent"
+				android:textSize="22px"></TextView>
+			<TextView android:layout_height="wrap_content" android:id="@+id/TextCalcLabelEH"
+				android:text="Exc. Hídrico:" android:layout_width="fill_parent"
+				android:textSize="22px" android:background="#333333"></TextView>
+		</LinearLayout>
+		<LinearLayout android:id="@+id/LinearLayoutValues"
+			android:layout_height="wrap_content" android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_x="130px">
+
+			<TextView android:layout_height="wrap_content" android:id="@+id/TextCalcValueDia"
+				android:layout_width="fill_parent" android:textSize="20px"></TextView>
+			<TextView android:layout_height="wrap_content" android:id="@+id/TextCalcValuePE"
+				android:layout_width="fill_parent" android:textSize="20px"
+				android:background="#333333"></TextView>
+			<TextView android:layout_height="wrap_content" android:id="@+id/TextCalcValueET0"
+				android:layout_width="fill_parent" android:textSize="20px"></TextView>
+			<TextView android:layout_height="wrap_content" android:id="@+id/TextCalcValueETR"
+				android:layout_width="fill_parent" android:textSize="20px"
+				android:background="#333333"></TextView>
+			<TextView android:layout_height="wrap_content" android:id="@+id/TextCalcValueAD"
+				android:layout_width="fill_parent" android:textSize="20px"></TextView>
+			<TextView android:id="@+id/Textsep" android:layout_width="fill_parent"
+				android:layout_height="5px" android:background="#BBBBBB"></TextView>
+			<TextView android:layout_height="wrap_content" android:id="@+id/TextCalcValueUmin"
+				android:layout_width="fill_parent" android:textSize="22px"
+				android:background="#333333"></TextView>
+			<TextView android:layout_height="wrap_content" android:id="@+id/TextCalcValueDH"
+				android:textSize="22px" android:layout_width="fill_parent"></TextView>
+			<TextView android:layout_height="wrap_content" android:id="@+id/TextCalcValueEH"
+				android:layout_width="fill_parent" android:textSize="22px"
+				android:background="#333333"></TextView>
+		</LinearLayout>
+	</AbsoluteLayout>
+
+	<ScrollView android:id="@+id/ScrollView01"
+		android:layout_width="fill_parent" android:scrollbars="horizontal|vertical"
+		android:layout_height="1px">
+
+		<TextView android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:id="@+id/TextCalcTeste"
+			android:background="#333333" android:scrollbars="horizontal|vertical"></TextView>
+
+	</ScrollView>
+	<LinearLayout android:id="@+id/LinearLayout01"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<Button android:layout_height="wrap_content" android:id="@+id/BttCalcPrim"
+			android:text="&lt;&lt;" android:layout_width="40px"></Button>
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/BttCalcAnt"
+			android:text="&lt;Anterior"></Button>
+		<Button android:layout_height="wrap_content" android:id="@+id/BttCalGraph"
+			android:text="Gráfico" android:layout_width="wrap_content"></Button>
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/BttCalcProx"
+			android:text="Próximo&gt;"></Button>
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/BttCalcUlt"
+			android:text="&gt;&gt;"></Button>
+	</LinearLayout>
+
+
+
+</LinearLayout>

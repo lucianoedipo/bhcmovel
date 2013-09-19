@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/TxtCultSel"
+		android:text="Cultura Selecionada:"></TextView>
+
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/TxtSoloSel"
+		android:text="Solo:"></TextView>
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/TxtPrimDia"
+		android:text="Primeiro Dia:"></TextView>
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/TxtUltDia"
+		android:text="Último Dia:"></TextView>
+	<AbsoluteLayout android:id="@+id/AbsoluteLayout01"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/TxtPerInc"
+			android:text="Inicio:" android:layout_x="10px" android:layout_y="5px"></TextView>
+			<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/TxtPerFim"
+			android:text="Final:" android:layout_y="5px" android:layout_x="178px"></TextView>
+		<EditText android:layout_height="wrap_content"
+			android:layout_width="150px" android:layout_x="3px"
+			android:scrollHorizontally="true" android:id="@+id/EdtSelPerIni"
+			android:layout_y="20px" />
+		<EditText android:layout_height="wrap_content"
+			android:layout_width="150px" android:layout_x="168px"
+			android:scrollHorizontally="true" android:id="@+id/EdtSelPerFim"
+			android:layout_y="20px"></EditText>
+
+
+	
+</AbsoluteLayout>
+    
+
+
+<Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="Prosseguir &gt;&gt;" android:id="@+id/BttSelPerOk"></Button>
+</LinearLayout>
